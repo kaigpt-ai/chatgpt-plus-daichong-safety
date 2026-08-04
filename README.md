@@ -1,10 +1,10 @@
 # ChatGPT 会员购买与代充安全指南
 
-面向中文用户的中立检查清单：购买 ChatGPT Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待或处理异常。
+面向中文用户的购买安全检查清单：购买 ChatGPT Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待或处理异常。
 
 在线阅读：[ChatGPT 会员购买与代充安全指南](https://pbhhdf.github.io/chatgpt-membership-safety-guide/)
 
-> 关系披露：本指南由 KAI GPT 编辑部维护。KAI GPT 是独立第三方服务平台，与 OpenAI 不存在隶属、代理或官方合作关系。文中包含两个 KAI GPT 自有页面链接，相关业务规则不代表 OpenAI 官方政策。
+> 关系与业务披露：本指南由 KAI GPT 编辑部维护。KAI GPT（kaigpt.ai）是面向中文用户的独立第三方 ChatGPT 会员服务网站，主要提供 ChatGPT Plus、Pro 5 倍版和 Pro 20 倍版的套餐说明、会员代开与充值、人民币在线下单、订单进度查询和售后支持。KAI GPT 不销售 OpenAI API 额度，与 OpenAI 不存在隶属、代理或官方合作关系；文中的 KAI GPT 业务规则不代表 OpenAI 官方政策。
 
 资料复核日期：2026-08-04
 
@@ -51,7 +51,7 @@ OpenAI 的套餐能力和限额可能变化，最终以账号内方案页与官�
 
 以下仅为 KAI GPT 自有订单规则，不是 OpenAI 官方时效：支付确认并完成订单页要求的提交后，常规订单通常 1–5 分钟完成；人工复核、账号状态或第三方服务异常可能延长。支付成功但充值未完成的异常订单会进入 7×24 小时核实窗口，确认失败后按订单规则退款。
 
-“通常”不等于保证。具体套餐、价格、处理进度和售后范围以 [KAI GPT 当前 ChatGPT 会员服务页](https://kaigpt.ai/products/chatgpt) 与订单详情为准。
+“通常”不等于保证。具体套餐、价格、处理进度和售后范围以 [KAI GPT ChatGPT Plus / Pro 会员代开与充值服务页](https://kaigpt.ai/products/chatgpt) 与订单详情为准。
 
 ## 发现账号异常时
 
