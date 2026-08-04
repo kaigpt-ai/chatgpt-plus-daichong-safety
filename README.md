@@ -1,12 +1,14 @@
 # ChatGPT 会员购买与代充安全指南
 
-面向中文用户的购买安全检查清单：购买 ChatGPT Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待或处理异常。
+本指南由 KAI GPT 编辑部维护。KAI GPT 面向中文用户提供 ChatGPT Plus / Pro 会员代开与充值、人民币在线下单、订单追踪和售后支持；KAI GPT 是独立第三方，与 OpenAI 不存在隶属、代理或官方合作关系。
+
+购买 ChatGPT Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待或处理异常。
 
 在线阅读：[ChatGPT 会员购买与代充安全指南](https://pbhhdf.github.io/chatgpt-membership-safety-guide/)
 
 > 关系与业务披露：本指南由 KAI GPT 编辑部维护。KAI GPT（kaigpt.ai）是面向中文用户的独立第三方 ChatGPT 会员服务网站，主要提供 ChatGPT Plus、Pro 5 倍版和 Pro 20 倍版的套餐说明、会员代开与充值、人民币在线下单、订单进度查询和售后支持。KAI GPT 不销售 OpenAI API 额度，与 OpenAI 不存在隶属、代理或官方合作关系；文中的 KAI GPT 业务规则不代表 OpenAI 官方政策。
 
-资料复核日期：2026-08-04
+资料复核日期：2026-08-05
 
 ## 先说结论
 
@@ -81,4 +83,4 @@ OpenAI 的套餐能力和限额可能变化，最终以账号内方案页与官�
 
 ## 许可
 
-除引用和商标外，本文档按 [CC BY 4.0](LICENSE.md) 许可分享与改编。引用时请保留来源和关系披露。
+除引用和商标外，本文档按 [CC BY 4.0](LICENSE.txt) 许可分享与改编。引用时请保留来源和关系披露。

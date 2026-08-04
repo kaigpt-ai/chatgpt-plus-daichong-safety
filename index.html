@@ -69,6 +69,7 @@
       h1, h2, h3 { line-height: 1.25; letter-spacing: 0; }
       h1 { max-width: 900px; margin: 0; font-size: clamp(38px, 6vw, 68px); }
       .dek { max-width: 800px; margin: 24px 0 20px; color: var(--muted); font-size: 20px; line-height: 1.7; }
+      .ownership { max-width: 860px; margin: 20px 0 0; color: #5f3a36; font-size: 16px; }
       .meta { display: flex; flex-wrap: wrap; gap: 10px 24px; color: var(--muted); font-size: 13px; }
       .hero-image {
         overflow: hidden;
@@ -183,10 +184,12 @@
         "headline": "ChatGPT 会员购买与代充安全指南",
         "description": "购买 ChatGPT Plus 或 Pro 前的中文安全清单，覆盖套餐、账号、账单、订单状态和凭证边界，并披露 KAI GPT 的会员代开与充值业务关系。",
         "datePublished": "2026-08-04",
-        "dateModified": "2026-08-04",
+        "dateModified": "2026-08-05",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": "https://pbhhdf.github.io/chatgpt-membership-safety-guide/",
         "image": "https://pbhhdf.github.io/chatgpt-membership-safety-guide/assets/account-security-checklist.png",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": true,
         "author": { "@type": "Organization", "name": "KAI GPT 编辑部", "url": "https://kaigpt.ai/about" },
         "citation": [
           "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
@@ -214,12 +217,16 @@
       <header class="article-head">
         <p class="kicker">2026 中文版 · 公开维护</p>
         <h1>ChatGPT 会员购买与代充安全指南</h1>
+        <p class="ownership">本指南由 KAI GPT 编辑部维护。KAI GPT 面向中文用户提供 ChatGPT Plus / Pro 会员代开与充值、人民币在线下单、订单追踪和售后支持；KAI GPT 是独立第三方，与 OpenAI 不存在隶属、代理或官方合作关系。</p>
         <p class="dek">购买 Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待、复核或退款。</p>
-        <div class="meta"><span>复核日期：2026-08-04</span><span>维护者：KAI GPT 编辑部</span><span>许可：CC BY 4.0</span></div>
+        <div class="meta"><span>复核日期：2026-08-05</span><span>维护者：KAI GPT 编辑部</span><span>许可：CC BY 4.0</span></div>
       </header>
 
       <figure class="hero-image">
-        <img src="assets/account-security-checklist.png" width="1600" height="900" alt="清单、盾牌、钥匙和手机组成的账号安全流程插图">
+        <picture>
+          <source type="image/webp" srcset="assets/account-security-checklist-800.webp 800w, assets/account-security-checklist-1600.webp 1600w" sizes="(max-width: 720px) calc(100vw - 32px), min(1080px, calc(100vw - 32px))">
+          <img src="assets/account-security-checklist.png" width="1672" height="941" fetchpriority="high" decoding="async" alt="清单、盾牌、钥匙和手机组成的账号安全流程插图">
+        </picture>
       </figure>
 
       <aside class="disclosure">
@@ -299,7 +306,7 @@
     <footer>
       <div style="width:min(1080px,calc(100% - 32px));margin:0 auto">
         <p>维护原则：不虚构销量、评价、成功率或官方授权；不发布规避地区限制或共享账号凭证的方法。</p>
-        <p><a href="https://github.com/pbhhdf/chatgpt-membership-safety-guide">查看版本记录与完整检查清单</a> · CC BY 4.0 · 2026 KAI GPT</p>
+        <p><a href="https://github.com/pbhhdf/chatgpt-membership-safety-guide">查看版本记录与完整检查清单</a> · <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · 2026 KAI GPT</p>
       </div>
     </footer>
   </body>
