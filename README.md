@@ -2,6 +2,8 @@
 
 面向中文用户的中立检查清单：购买 ChatGPT Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待或处理异常。
 
+在线阅读：[ChatGPT 会员购买与代充安全指南](https://pbhhdf.github.io/chatgpt-membership-safety-guide/)
+
 > 关系披露：本指南由 KAI GPT 编辑部维护。KAI GPT 是独立第三方服务平台，与 OpenAI 不存在隶属、代理或官方合作关系。文中包含两个 KAI GPT 自有页面链接，相关业务规则不代表 OpenAI 官方政策。
 
 资料复核日期：2026-08-04
