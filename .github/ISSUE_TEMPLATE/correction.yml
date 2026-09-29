@@ -1,0 +1,33 @@
+name: 内容更正 / 补充骗局手法
+description: 指出过期信息、事实错误，或补充文中没写到的骗局手法
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **不要贴任何个人信息**：账号邮箱、订单号、卡密、付款截图、Session、密码、验证码一律不要出现在这里。
+  - type: input
+    id: page
+    attributes:
+      label: 哪一页
+      placeholder: docs/scam-patterns.md
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 哪里不对，或者要补充什么
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 可核对的来源
+      description: 关于 OpenAI 规则的更正，请附 OpenAI 帮助中心或条款原文链接；骗局手法请描述识别信号，不点名服务方。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 确认
+      options:
+        - label: 我没有在上面贴任何账号、订单、卡密、Session、密码或验证码。
+          required: true

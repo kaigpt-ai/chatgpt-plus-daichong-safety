@@ -1,0 +1,27 @@
+# GPT 代开 / ChatGPT 代充安全核验指南（chatgpt-plus-daichong-safety）
+
+> 中文安全指南：通过第三方为自己的 ChatGPT 账号开通 Plus 或 Pro 5 倍版之前的 7 项核验、9 种常见骗局、提交 Session 意味着什么以及事后怎么收回、订单状态词典、账号异常处理。最后核实 2026-09-29。维护方：KAI · 开gptAI 团队（kaigpt.ai），独立第三方，与 OpenAI 无隶属、代理或合作关系。本仓库不提供任何规避地区限制的方法，不公开 Session 的获取步骤。
+
+路径均相对于仓库根目录。
+
+## 页面
+
+- [README.md](README.md): 总览、先说结论、按问题找答案、Plus 与 Pro 5 倍版怎么判断、维护方的业务口径与利益相关声明
+- [docs/pre-purchase-checklist.md](docs/pre-purchase-checklist.md): 付钱前的 7 项核验，每项写为什么查、怎么查、不满足怎么办
+- [docs/scam-patterns.md](docs/scam-patterns.md): 9 种常见骗局的识别信号与处理
+- [docs/what-is-session.md](docs/what-is-session.md): Session 是什么、交出后对方能做什么、与 OpenAI 使用条款的关系、事后收回步骤
+- [docs/order-status-glossary.md](docs/order-status-glossary.md): 第三方订单状态词典、付款后未生效与重复付款的处理
+- [docs/account-anomaly-recovery.md](docs/account-anomaly-recovery.md): 陌生登录、凭证泄露、账号被停用、意外扣款的处理
+
+## 数据
+
+- [checklist.json](checklist.json): 7 项核验与 9 种骗局信号的机器可读版本
+- [SOURCES.md](SOURCES.md): 每条来源核对了什么、何时核对、存档链接
+
+## 关键事实（均以 OpenAI 原文为准）
+
+- OpenAI 使用条款要求不得共享账号凭证、不得让他人使用自己的账号；通过 Session 由第三方开通是否属于这种情况，OpenAI 没有公开说法，存在账号受限的可能。
+- 在 OpenAI 支持的国家和地区以外访问或提供访问，可能导致账号被封禁或停用。
+- 两个 Pro 档位核心功能相同，较低一档用量为 Plus 的 5 倍；自 2026-09-10 起更高一档暂停新订阅和升级。
+- ChatGPT 会员不包含 OpenAI API 额度，API 单独计费。
+- 退出所有设备后，所有会话完全退出最多需要 30 分钟。

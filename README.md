@@ -1,98 +1,130 @@
-# ChatGPT 代充完整指南
+# GPT 代开 / ChatGPT 代充安全吗？付钱前的 7 项核验与 9 种常见骗局（2026）
 
-本指南由 KAI GPT 编辑部维护。KAI GPT 面向中文用户提供 ChatGPT Plus / Pro 会员代开与充值、人民币在线下单、订单追踪和售后支持；KAI GPT 是独立第三方，与 OpenAI 不存在隶属、代理或官方合作关系。
+**最后核实：2026-09-29** · 适用：打算通过第三方渠道为**自己的** ChatGPT 账号开通 Plus 或 Pro 5 倍版的中文用户
 
-购买 ChatGPT Plus 或 Pro 前，先核对套餐、账号、账单与安全边界；付款后按订单状态判断是否需要等待或处理异常。
+GPT 代开（也叫 GPT 会员代开、ChatGPT Plus 代开，很多渠道写作“代充”）指通过第三方为你**自己的** ChatGPT 账号开通 Plus 或 Pro 5 倍版，不是买一个别人注册好的成品号。它有真实的风险，也有可以提前核对的地方。本仓库把它拆成三部分：付钱前逐项核验什么，哪些做法一看就是骗局，以及提交 Session 到底意味着什么、事后怎么收回。每条关于 OpenAI 规则的说法都附 OpenAI 帮助中心或条款原文的链接和核对日期。
 
-在线阅读：[ChatGPT 代充完整指南](https://pbhhdf.github.io/chatgpt-membership-safety-guide/)
+> [!IMPORTANT]
+> **利益相关**：本仓库由 [KAI · 开gptAI](https://kaigpt.ai/?utm_source=github&utm_medium=repo&utm_campaign=chatgpt-plus-daichong-safety&utm_content=disclosure) 团队维护。KAI 是独立第三方 AI 会员服务，为用户自己的 ChatGPT 账号开通会员，与 OpenAI 无隶属、代理或合作关系；文中 KAI 的业务规则不代表 OpenAI 政策。本仓库的核验项和危险信号，同样适用于 KAI 自己。
+>
+> **关于 OpenAI 使用条款**：OpenAI [使用条款](https://openai.com/policies/row-terms-of-use/)要求用户不得共享账号凭证，也不得让他人使用自己的账号。通过第三方（包括 KAI）为自己的账号开通会员时，需要在对方页面提交账号 Session，这一步是否符合条款存在不确定性，账号可能因此受到限制，任何第三方都无法替 OpenAI 作出保证。能用受支持的方式直接向 OpenAI 付款的用户，建议直接付款。
+>
+> **KAI 的做法**：KAI 不索取账号密码、邮箱密码、短信或 MFA 验证码；Session 只在卡密验证后于 KAI 自有兑换页 kaigpt.pro 提交。不要通过私聊、邮件或工单把密码、验证码或 Session 发给任何人（包括客服）。本仓库不提供任何规避地区限制的方法，也不公开 Session 的获取步骤。
 
-## 本指南包含哪些页
+## 目录
 
-| 页面 | 讲什么 |
-| --- | --- |
-| [ChatGPT 代充完整指南](https://pbhhdf.github.io/chatgpt-membership-safety-guide/) | 总览：7 项购买前检查、Plus 与 Pro 怎么选、订单状态怎么读 |
-| [ChatGPT 充值：四类方式对比](https://pbhhdf.github.io/chatgpt-membership-safety-guide/chatgpt-recharge-methods.html) | 自有境外卡、虚拟卡、第三方代充、成品账号各自的成本与风险，以及判断渠道的六条标准 |
-| [ChatGPT Plus 代充](https://pbhhdf.github.io/chatgpt-membership-safety-guide/chatgpt-plus-recharge.html) | 下单前确认四件事、账号购买与账号升级的区别、付款后怎么自己验收 |
-| [ChatGPT Pro 代充](https://pbhhdf.github.io/chatgpt-membership-safety-guide/chatgpt-pro-recharge.html) | 先判断值不值：按撞限额的真实频率决定，不按套餐名称 |
-| [ChatGPT 代充安全吗](https://pbhhdf.github.io/chatgpt-membership-safety-guide/chatgpt-recharge-safety.html) | 7 个风险点逐条说明、付款后会员没生效怎么处理 |
-
-配套文档：[购买前安全清单](SECURITY-CHECKLIST.md) · [订单状态词典](ORDER-STATUS-GLOSSARY.md) · [资料来源](SOURCES.md)
-
-> 关系与业务披露：本指南由 KAI GPT 编辑部维护。KAI GPT（kaigpt.ai）是面向中文用户的独立第三方 ChatGPT 会员服务网站，主要提供 ChatGPT Plus、Pro 5 倍版和 Pro 20 倍版的套餐说明、会员代开与充值、人民币在线下单、订单进度查询和售后支持。KAI GPT 不销售 OpenAI API 额度，与 OpenAI 不存在隶属、代理或官方合作关系；文中的 KAI GPT 业务规则不代表 OpenAI 官方政策。
-
-资料复核日期：2026-09-16
+- [先说结论](#先说结论)
+- [按问题找答案](#按问题找答案)
+- [GPT 代开前的 7 项核验](#gpt-代开前的-7-项核验)
+- [9 种常见骗局](#9-种常见骗局)
+- [选哪一档先看用量](#选哪一档先看用量)
+- [付款后自己验收](#付款后自己验收)
+- [KAI 的业务口径](#kai-的业务口径)
+- [可打印清单与机器可读版](#可打印清单与机器可读版)
+- [来源与核对方法](#来源与核对方法)
+- [参与维护](#参与维护)
+- [许可](#许可)
 
 ## 先说结论
 
-购买会员前最重要的不是寻找“保证成功”的渠道，而是确认目标账号可用、套餐与任务匹配、会员和 API 账单没有混淆，并且付款与交付全过程都能查询。任何渠道都不应该索取你的账号密码、邮箱验证码、短信验证码或 API Key。
+1. **代充不是“安全”或“不安全”二选一。** 风险集中在三处：钱付给了谁、账号访问权交给了谁、和 OpenAI 使用条款的关系。前两处可以在付钱前核对，第三处谁也保证不了。
+2. **会不会被限制账号？有可能。** OpenAI 没有公开说过通过第三方开通是否违反条款。承诺“不会被封”的渠道，承诺的是它做不到的事。
+3. **密码和验证码谁要都不给。** “卡密 + Session”类服务只应要 Session，而且只能在服务方自己的兑换页提交；在聊天、邮件或工单里要任何凭证的，直接停止。
+4. **“不要密码”不等于“没交出登录状态”。** Session 在有效期内等同于一个已登录的你。开通完成后，到 ChatGPT 安全设置里退出所有设备，收回这次交出去的访问权。
+5. **能直接向 OpenAI 付款，就直接付款。** 人在受支持的国家或地区、有当地银行发行的卡，网页直付或应用商店订阅的边界最清楚。
 
-## 购买前的 7 项检查
+## 按问题找答案
 
-1. **确认服务可用性**：先确认 ChatGPT 及目标套餐在账号和所在地可用。本指南不提供规避地区限制的方法。
-2. **确认登录账号**：记录当前邮箱和最初使用的登录方式，避免升级到错误账号。
-3. **检查现有订阅**：已有未结束订阅时先核对续费、覆盖和账单规则，不要重复购买。
-4. **按真实任务选套餐**：偶尔问答先用 Free；每天办公、学习、文件处理或一般开发可先比较 Plus；只有持续重任务且额度中断产生实际成本时，再考虑 Pro。
-5. **区分会员与 API**：ChatGPT 会员和 OpenAI API 分开管理、分开计费，购买 Plus 或 Pro 不会获得 API 调用余额。
-6. **守住凭证边界**：不要向客服或第三方发送密码、验证码、API Key 或聊天中收到的陌生登录链接。
-7. **保存订单证据**：保存订单号、支付时间和状态时间线；遇到异常先查订单，不要立即重复付款。
+| 你想问的 | 直接答案 | 详细 |
+|---|---|---|
+| ChatGPT 代充安全吗？靠谱吗？ | 付款和凭证两类风险可以提前核验；条款风险无法消除，只能自己决定接不接受 | [7 项核验](docs/pre-purchase-checklist.md) |
+| 代充会被封号吗？ | 可能被限制。OpenAI 条款禁止让他人使用账号，通过 Session 开通是否属于这种情况，OpenAI 没有公开说法 | [Session 与条款](docs/what-is-session.md#和-openai-使用条款的关系) |
+| 代充需要给密码吗？ | 不应该。密码、邮箱验证码、短信或 MFA 验证码都不给任何人，包括自称客服的人 | [骗局 2](docs/scam-patterns.md#2-索要密码或验证码) |
+| ChatGPT Session 是什么？ | 登录后浏览器保存的登录状态；在失效前，持有者不用密码就能以你的身份访问账号 | [Session 是什么](docs/what-is-session.md) |
+| GPT 代开、代充、共享号和成品号有什么区别？ | 前两者在多数渠道是同一件事：会员开到你自己的账号上，账号和记录归你；共享号和成品号的账号不属于你，聊天记录对别人可见，和 OpenAI 账号共享政策冲突 | [骗局 3](docs/scam-patterns.md#3-用共享号或成品号冒充开到你自己的账号) |
+| 付款后会员没生效怎么办？ | 先看订单状态，再核对登录的是不是目标账号；不要重复下单 | [订单状态词典](docs/order-status-glossary.md) |
+| 重复扣款了怎么办？ | 保存两笔付款凭证和订单号，通过渠道自己的售后入口处理；无回应时按支付平台规则申请 | [订单状态词典](docs/order-status-glossary.md#重复付款怎么办) |
+| 退款条件怎么看？ | 问三件事：什么情况能退、退到哪里、多久核实；只认页面上写明的条款 | [7 项核验第 6 项](docs/pre-purchase-checklist.md#6-退款条件写在页面上) |
+| 怎么识别骗局？ | 私聊付款链接、要验证码、价格远低于正常水平、承诺不会被限制，出现一条就停 | [9 种骗局](docs/scam-patterns.md) |
+| 事后怎么收回账号访问权？ | 退出所有设备、改密码（如果泄露过）、开启 MFA、检查设置和记忆有没有被改 | [收回步骤](docs/what-is-session.md#用完之后怎么收回) · [账号异常处理](docs/account-anomaly-recovery.md) |
 
-可打印版本：[购买前安全清单](SECURITY-CHECKLIST.md)
+## GPT 代开前的 7 项核验
 
-## Plus 与 Pro 怎么判断
+每项写了为什么查、怎么查、不满足时怎么办，见 [docs/pre-purchase-checklist.md](docs/pre-purchase-checklist.md)。
 
-| 使用情况 | 建议先比较 | 判断依据 |
-| --- | --- | --- |
-| 偶尔问答、翻译、短文案 | Free | 先确认自己是否真的需要付费功能 |
-| 每天办公、学习、文件处理、一般开发 | Plus | 用一周真实记录判断额度是否够用 |
-| 持续编程、深度研究，Plus 中断已影响工作 | Pro 5 倍版 | 中断已经产生可衡量的时间成本 |
-| 多类重任务并行，连续性优先 | Pro 20 倍版 | 已有明确用量记录，不只因为套餐名称购买 |
+| # | 核验项 | 一句话 |
+|---|---|---|
+| 1 | 账号归属 | 会员开到你自己长期控制的账号上，而不是给你一个别人的账号 |
+| 2 | 凭证边界 | 不要密码和验证码；Session 只在服务方自己的兑换页提交 |
+| 3 | 收款主体 | 付款成功页上的收款方名称，和网站写明的运营主体对得上 |
+| 4 | 订单记录 | 有订单号和状态时间线，不靠聊天记录追查 |
+| 5 | Session 保存方式 | 隐私政策写明存多久、谁能看、什么时候删除 |
+| 6 | 退款条件 | 什么情况退、退到哪里、多久核实，都写在页面上 |
+| 7 | 表述是否诚实 | 不自称与 OpenAI 有合作，不承诺“不会被限制”“保证成功” |
 
-OpenAI 的套餐能力和限额可能变化，最终以账号内方案页与官方帮助中心为准。也可以使用 [KAI GPT 套餐选择器](https://kaigpt.ai/tools/chatgpt-plan-selector) 按频率、任务强度、中断容忍度和预算整理需求；结果是规则建议，不是 OpenAI 官方推荐。
+## 9 种常见骗局
 
-## 安全订单应当具备什么
+每种写了识别信号、为什么危险、该怎么做，见 [docs/scam-patterns.md](docs/scam-patterns.md)。
 
-一个可核对的会员订单至少应展示：
+1. 私聊里发来的临时付款链接或个人收款码
+2. 索要密码或验证码
+3. 用共享号或成品号冒充“开到你自己的账号”
+4. 价格远低于正常水平，又说不清怎么开通
+5. 自称与 OpenAI 有合作或获得许可
+6. 承诺无条件保证成功、无条件退款
+7. 要求在聊天、邮件或工单里发送 Session
+8. 以“远程协助”为名操作你的设备
+9. 仿冒服务方的域名或兑换页
 
-- 唯一订单号与创建时间；
-- 实际套餐、期限和付款金额；
-- 支付确认、提交、处理中、完成或异常等状态；
-- 失败后的复核与退款路径；
-- 联系客服时需要提供哪些信息，以及哪些凭证绝对不能提供。
+## 选哪一档先看用量
 
-各状态的含义见：[订单状态词典](ORDER-STATUS-GLOSSARY.md)。
+先按真实用量判断，不要按套餐名称判断。
 
-## KAI GPT 的业务口径
+| 使用情况 | 先比较 | 判断依据 |
+|---|---|---|
+| 偶尔问答、翻译、写短文 | Free | 先确认自己真的需要付费功能 |
+| 每天办公、学习、处理文件、一般编程 | Plus | 记一周真实使用，看额度够不够 |
+| 每天长时间编程或深度研究，Plus 的额度上限已经打断工作 | Pro 5 倍版 | 中断造成的时间成本能算出来 |
+| 需要比 Pro 5 倍版更高的用量 | 以 OpenAI 页面为准 | OpenAI 自 2026-09-10 起暂停了更高一档的新订阅和升级，已有订阅照常续订 |
 
-以下仅为 KAI GPT 自有订单规则，不是 OpenAI 官方时效：支付确认并完成订单页要求的提交后，常规订单通常 1–5 分钟完成；人工复核、账号状态或第三方服务异常可能延长。支付成功但充值未完成的异常订单会进入 7×24 小时核实窗口，确认失败后按订单规则退款。
+按 OpenAI 帮助中心《About ChatGPT Pro tiers》（2026-09-19 存档核对）：两个 Pro 档位核心功能相同，较低一档（Pro 5 倍版）的用量是 Plus 的 5 倍；升级立即生效，降级在下个续费日生效；目前不支持年付。ChatGPT 会员不包含 OpenAI API 额度，API 单独计费。套餐和额度会变，以你账号里的方案页为准。
 
-“通常”不等于保证。具体套餐、价格、处理进度和售后范围以 [KAI GPT ChatGPT Plus / Pro 会员代开与充值服务页](https://kaigpt.ai/products/chatgpt) 与订单详情为准。
+## 付款后自己验收
 
-## 发现账号异常时
+1. **确认档位**：刷新 ChatGPT，在设置里查看当前方案和续费日期。
+2. **核对金额**：实际付款金额和订单一致，订单号和付款记录保存好。
+3. **收回访问权**：确认开通完成后，在 设置 → 安全 里退出所有设备，再检查一遍设置、记忆和自定义指令有没有被改动。OpenAI 帮助中心说明，所有会话完全退出最多需要 30 分钟。
+4. **有异常先查订单状态**，看 [订单状态词典](docs/order-status-glossary.md)；发现陌生登录，按 [账号异常处理](docs/account-anomaly-recovery.md) 操作。
 
-如果发现陌生登录、意外 API 用量或凭证泄露：
+## KAI 的业务口径
 
-1. 立即修改密码。
-2. 在 ChatGPT 设置的 Security 中退出所有设备。
-3. 启用 MFA 或可用的通行密钥。
-4. 删除疑似泄露的 API Key，并检查 API 用量。
-5. 联系 OpenAI Support，并保留异常活动记录。
+以下是 KAI · 开gptAI 自己的规则，不代表 OpenAI 政策。上面的核验项和危险信号同样适用于 KAI，你可以逐条对照。
 
-## 维护原则
+- **开通对象**：你自己的 ChatGPT 账号，可开 Plus 或 Pro 5 倍版（30 天）；不交付共享号或成品号，不出售 API 额度。
+- **凭证边界**：不索取账号密码、邮箱密码、短信或 MFA 验证码。卡密验证通过后，在 KAI 自有兑换页 kaigpt.pro 按页面说明提交 Session；只在该页面提交，不要通过私聊、邮件或工单发给任何人（包括客服）。Session 怎么保存、用于什么、什么时候清除，见 [KAI 隐私政策](https://kaigpt.ai/privacy?utm_source=github&utm_medium=repo&utm_campaign=chatgpt-plus-daichong-safety&utm_content=session_policy)。
+- **付款**：人民币标价，支付宝扫码；只在网站下单页付款。
+- **时效**：支付确认并完成页面要求的提交后，常规订单通常 1–5 分钟完成；需要人工复核的订单，以订单详情里的进度为准。
+- **退款**：因平台或履约原因确认无法开通的订单，经人工核实后通过原支付宝交易退款；会员开通成功后不适用无理由取消。
+- **条款风险**：与上文相同。KAI 无法替 OpenAI 作出任何保证。
 
-- 只引用可核对来源，不虚构用户评价、销量、成功率或“官方授权”。
-- 套餐、计费或安全政策变化时更新来源与复核日期。
-- 不发布规避地区限制、共享账号凭证或绕过平台规则的操作方法。
-- 欢迎通过 Issue 指出过期链接、事实错误或需要补充的安全场景。
+一切以订单详情和创建订单时页面显示的条款为准。
 
-## 官方来源
+## 可打印清单与机器可读版
 
-完整来源表与核对范围见 [SOURCES.md](SOURCES.md)。主要来源：
+可打印的一页版（A4）：[assets/checklist-zh.png](assets/checklist-zh.png)。
 
-- [OpenAI：ChatGPT Plus](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
-- [OpenAI：ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-plans)
-- [OpenAI：ChatGPT 与 API 分开计费](https://help.openai.com/en/articles/8156019-is-api-usage-included-in-chatgpt-subscriptions-even-if-i-have-a-paid-chatgpt-account)
-- [OpenAI：账号安全建议](https://help.openai.com/en/articles/8304786-preventing-unauthorized-usage)
+[checklist.json](checklist.json) 收录 7 项核验和 9 种骗局信号，每项带 `id`、中英文标题、检查方法和对应文档锚点，方便做成打印清单、浏览器插件或客服知识库。`python3 scripts/check.py` 会核对它和文档是否一致。
+
+## 来源与核对方法
+
+- 全部来源、每条来源核对了什么、核对日期和存档链接见 [SOURCES.md](SOURCES.md)。
+- help.openai.com 和 openai.com 在 2026-09-29 对自动抓取返回 403，本仓库按 Wayback Machine 最近的存档核对，并在 SOURCES.md 注明存档日期；发布或复核前，维护者用浏览器打开原文再确认。
+- “最后核实”日期只在真正重新核对过来源之后才更新。CI 每月检查一次，超过 45 天未复核会报错。
+
+## 参与维护
+
+发现过期信息、事实错误，或遇到文中没写到的骗局手法，欢迎提 Issue 或 PR，规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。**提交内容里不要出现任何人的账号、订单号、卡密、Session 或聊天截图中的个人信息。** 更新记录见 [CHANGELOG.md](CHANGELOG.md)，引用本仓库请参考 [CITATION.cff](CITATION.cff)。
 
 ## 许可
 
-除引用和商标外，本文档按 [CC BY 4.0](LICENSE.txt) 许可分享与改编。引用时请保留来源和关系披露。
+文档与数据（Markdown 页面、`checklist.json`、`llms.txt`）采用 [CC BY 4.0](LICENSE-CC-BY-4.0.txt)，引用时请保留来源和利益相关声明；`scripts/`、`tests/`、`.github/workflows/` 中的代码采用 MIT，详见 [LICENSE](LICENSE)。ChatGPT、OpenAI 等名称和商标归各自权利人所有。

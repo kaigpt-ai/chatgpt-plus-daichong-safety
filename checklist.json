@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "title": "ChatGPT 代充前的 7 项核验与 9 种骗局信号",
+  "title_en": "7 checks before paying a third party to activate ChatGPT, and 9 scam signals",
+  "last_verified": "2026-09-29",
+  "maintainer": "KAI · 开gptAI 维护团队（独立第三方，与 OpenAI 无隶属关系）",
+  "license": "CC-BY-4.0",
+  "checks": [
+    {
+      "id": "account-ownership",
+      "order": 1,
+      "title": "账号归属",
+      "title_en": "Account ownership",
+      "question": "会员是不是开到你自己长期控制的 ChatGPT 账号上？",
+      "how_to_check": ["看商品页写的是为你的账号开通，还是发货账号、独享号、拼车", "问清是在你的账号上订阅，还是邀请进某个工作区", "把回答截图保存"],
+      "if_not": "不买",
+      "doc": "docs/pre-purchase-checklist.md#1-账号归属会员开到你自己的账号上"
+    },
+    {
+      "id": "credential-boundary",
+      "order": 2,
+      "title": "凭证边界",
+      "title_en": "Credential boundary",
+      "question": "对方是否不要密码和验证码，并且 Session 只在它自有的兑换页提交？",
+      "how_to_check": ["服务条款是否写明不索取密码和验证码", "兑换页域名是否写在条款或帮助中心里", "客服是否在聊天里要过任何凭证"],
+      "if_not": "立即停止",
+      "doc": "docs/pre-purchase-checklist.md#2-凭证边界不给密码和验证码session-只在对方自有页面提交"
+    },
+    {
+      "id": "payee",
+      "order": 3,
+      "title": "收款主体",
+      "title_en": "Who you pay",
+      "question": "付款成功页上的收款方，和网站写明的运营主体是否一致？",
+      "how_to_check": ["找页脚或服务条款里的运营主体", "只在网站下单页付款", "不点私聊链接、不扫个人收款码、不转账"],
+      "if_not": "不买",
+      "doc": "docs/pre-purchase-checklist.md#3-收款主体付给谁和网站写的是不是同一家"
+    },
+    {
+      "id": "order-record",
+      "order": 4,
+      "title": "订单记录",
+      "title_en": "Order record",
+      "question": "下单后有没有唯一订单号和可查询的状态时间线？",
+      "how_to_check": ["下单后是否立即生成订单号", "能否在网站上随时查询状态", "关键节点是否有通知"],
+      "if_not": "不买",
+      "doc": "docs/pre-purchase-checklist.md#4-订单记录有订单号和状态时间线"
+    },
+    {
+      "id": "session-storage",
+      "order": 5,
+      "title": "Session 保存方式",
+      "title_en": "How the session is stored",
+      "question": "隐私政策是否写明 Session 用于什么、怎么保存、什么时候删除？",
+      "how_to_check": ["用途是否只限这一笔订单", "是否加密保存、谁能访问", "删除时间"],
+      "if_not": "按高风险估计；决定继续的话，开通完成后务必立刻收回访问权",
+      "doc": "docs/pre-purchase-checklist.md#5-session-保存方式写在隐私政策里"
+    },
+    {
+      "id": "refund-terms",
+      "order": 6,
+      "title": "退款条件",
+      "title_en": "Refund terms",
+      "question": "什么情况能退、退到哪里、多久核实，是否都写在页面上？",
+      "how_to_check": ["没开通成功算不算", "原路退回还是退成余额", "核实和到账时间"],
+      "if_not": "按不能退估算风险",
+      "doc": "docs/pre-purchase-checklist.md#6-退款条件写在页面上"
+    },
+    {
+      "id": "honest-claims",
+      "order": 7,
+      "title": "表述是否诚实",
+      "title_en": "Honest claims",
+      "question": "对方是否没有自称与 OpenAI 有合作，也没有承诺不会被限制？",
+      "how_to_check": ["是否有与 OpenAI 无隶属关系的声明", "是否承诺保证成功、不会被限制", "用户数、成功率是否有出处"],
+      "if_not": "其他说法也要打折看",
+      "doc": "docs/pre-purchase-checklist.md#7-表述是否诚实"
+    }
+  ],
+  "scam_signals": [
+    {"id": "private-payment-link", "order": 1, "title": "私聊里发来的临时付款链接或个人收款码", "title_en": "Payment link or personal QR code sent in chat", "action": "只在网站下单页付款", "doc": "docs/scam-patterns.md#1-私聊里发来的临时付款链接"},
+    {"id": "asks-password-or-code", "order": 2, "title": "索要密码或验证码", "title_en": "Asks for your password or a verification code", "action": "拒绝，已给出的立刻改密码并退出所有设备", "doc": "docs/scam-patterns.md#2-索要密码或验证码"},
+    {"id": "shared-or-premade-account", "order": 3, "title": "用共享号或成品号冒充开到你自己的账号", "title_en": "Shared or pre-made account sold as your own", "action": "只给自己长期控制的账号开通", "doc": "docs/scam-patterns.md#3-用共享号或成品号冒充开到你自己的账号"},
+    {"id": "too-cheap", "order": 4, "title": "价格远低于正常水平，又说不清怎么开通", "title_en": "Far below the normal price, with no clear method", "action": "问清开通方式并截图，说不清就不买", "doc": "docs/scam-patterns.md#4-价格远低于正常水平又说不清怎么开通"},
+    {"id": "claims-openai-partnership", "order": 5, "title": "自称与 OpenAI 有合作或获得许可", "title_en": "Claims a partnership with OpenAI", "action": "要求可核对的公开来源，给不出就当作不实宣传", "doc": "docs/scam-patterns.md#5-自称与-openai-有合作或获得许可"},
+    {"id": "unconditional-promises", "order": 6, "title": "承诺无条件保证成功、无条件退款", "title_en": "Unconditional success or refund promises", "action": "只认页面上写明的条款", "doc": "docs/scam-patterns.md#6-承诺无条件保证成功无条件退款"},
+    {"id": "session-in-chat", "order": 7, "title": "要求在聊天、邮件或工单里发送 Session", "title_en": "Asks you to send the session in chat, email or a ticket", "action": "拒绝，只在服务方自有兑换页提交", "doc": "docs/scam-patterns.md#7-要求在聊天邮件或工单里发送-session"},
+    {"id": "remote-assistance", "order": 8, "title": "以远程协助为名操作你的设备", "title_en": "Remote access to your device", "action": "拒绝任何远程控制", "doc": "docs/scam-patterns.md#8-以远程协助为名操作你的设备"},
+    {"id": "lookalike-domain", "order": 9, "title": "仿冒服务方的域名或兑换页", "title_en": "Look-alike domain or redemption page", "action": "自己输入域名，提交前核对兑换页域名", "doc": "docs/scam-patterns.md#9-仿冒服务方的域名或兑换页"}
+  ]
+}

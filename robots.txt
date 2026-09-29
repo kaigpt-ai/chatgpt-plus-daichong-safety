@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pbhhdf.github.io/chatgpt-membership-safety-guide/sitemap.xml

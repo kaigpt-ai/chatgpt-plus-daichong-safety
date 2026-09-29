@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "引用本仓库时，请注明仓库名称、最后核实日期，并保留利益相关声明。"
+type: dataset
+title: "GPT 代开 / ChatGPT 代充安全吗？付钱前的 7 项核验与 9 种常见骗局 (chatgpt-plus-daichong-safety)"
+abstract: >-
+  A Chinese-language safety guide for people who pay a third party to activate
+  ChatGPT Plus or Pro 5x on their own account (called GPT 代开 or 代充 in
+  Chinese): seven checks to make before
+  paying, nine scam patterns, what submitting a ChatGPT session means under
+  OpenAI's Terms of Use, how to revoke access afterwards, and an order status
+  glossary. Maintained by the team behind KAI (kaigpt.ai), an independent third
+  party with no affiliation with OpenAI.
+authors:
+  - name: "KAI · 开gptAI 维护团队"
+version: "1.0.0"
+date-released: "2026-09-29"
+license: CC-BY-4.0
+repository-code: "https://github.com/kaigpt-ai/chatgpt-plus-daichong-safety"
+keywords:
+  - chatgpt
+  - chatgpt-plus
+  - chatgpt-pro
+  - gpt-daichong
+  - account-security
+  - scam-prevention
+  - safety-checklist
+  - chinese

@@ -1,20 +1,15 @@
-# 修订记录
+# 更新记录
 
-## 2026-09-16
+只记录内容上的变化。“最后核实”日期只在真正重新核对来源后才更新。
 
-- 首页主题从「会员购买」调整为「ChatGPT 代充」，标题、描述和 H1 同步更新。
-- 新增《ChatGPT 充值：四类方式对比》，比较自有境外卡、虚拟信用卡、第三方代充和成品账号四条路径的成本与风险，并给出判断渠道的六条可验证标准。
-- 新增《ChatGPT Plus 代充》，说明下单前要确认的四件事、账号购买与账号升级的区别，以及付款后如何自己验收。
-- 新增《ChatGPT Pro 代充》，给出按撞限额频率而非套餐名称判断是否升级的方法。
-- 样式抽取为 `assets/style.css`，新页面共用。
-- 补充 `CONTRIBUTING.md` 和本文件。
-- 新增 `scripts/check.py`：检查页面结构、内链、SEO 元素，以及指向自家站点的链接是否被误标成 nofollow。
-- 新增 `scripts/indexnow.sh`：向 IndexNow 推送页面更新（Bing / Yandex 生效，Google 不使用该协议）。
-- 新增 GitHub Actions，每次 push 和 PR 自动跑自检。
-- 站点地图更新为 5 个页面。
+## [1.0.0] - 2026-09-29
 
-## 2026-08-05
+首次发布。
 
-- 首次发布：购买前 7 项检查、Plus 与 Pro 判断表、订单状态说明、凭证边界。
-- 专题页《ChatGPT 代充安全吗？购买前检查 7 个风险点》。
-- 配套文档：购买前安全清单、订单状态词典、资料来源。
+- README：先说结论、按问题找答案（10 问）、7 项核验与 9 种骗局索引、Plus 与 Pro 5 倍版怎么判断、付款后自己验收、维护方的业务口径。
+- docs/pre-purchase-checklist.md：7 项核验，每项写为什么查、怎么查、不满足时怎么办。
+- docs/scam-patterns.md：9 种常见骗局与被骗后的处理。
+- docs/what-is-session.md：Session 是什么、交出后对方在有效期内能做什么、与 OpenAI 使用条款的关系、提交前要问的 5 个问题、事后收回步骤。
+- docs/order-status-glossary.md：订单状态词典、付款后未生效、重复付款。
+- docs/account-anomaly-recovery.md：陌生登录、凭证泄露、账号被停用、意外 API 用量、陌生扣款。
+- checklist.json、SOURCES.md、CITATION.cff、llms.txt；scripts/check.py 与 CI。

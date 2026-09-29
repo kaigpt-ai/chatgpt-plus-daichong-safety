@@ -1,9 +1,11 @@
-name: 站点自检
+name: check
 
 on:
   push:
-    branches: [main]
   pull_request:
+  schedule:
+    # 每月 1 日：“最后核实”超过 45 天就失败，提醒维护者重新核对来源
+    - cron: "23 2 1 * *"
   workflow_dispatch:
 
 permissions:
@@ -12,10 +14,19 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: 检查页面结构、内链、SEO 元素与外链 rel
-        run: python3 scripts/check.py
+      - name: 内容检查（禁用表述、链接、锚点、清单、日期）
+        run: python3 scripts/check.py --strict
+      - name: 单元测试
+        run: python3 -m unittest discover -s tests -v
+      - name: 复核期限
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/check.py --strict --max-age-days 45
+      - name: 外部链接（仅手动触发）
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 scripts/check.py --online
