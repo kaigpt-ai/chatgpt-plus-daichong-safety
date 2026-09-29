@@ -3,9 +3,6 @@ name: check
 on:
   push:
   pull_request:
-  schedule:
-    # 每月 1 日：“最后核实”超过 45 天就失败，提醒维护者重新核对来源
-    - cron: "23 2 1 * *"
   workflow_dispatch:
 
 permissions:
